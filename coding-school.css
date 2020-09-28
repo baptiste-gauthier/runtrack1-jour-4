@@ -1,0 +1,28 @@
+/*Contenu*/
+
+/* Coding School : Partie 1 */
+
+.CodingSchool{
+    background-color: #275fa0;
+}
+
+div.video-container{
+   display: flex;
+   flex-direction: row;
+   justify-content: center space-around;
+   flex-wrap: wrap;
+}
+
+
+
+div.video-container iframe{
+    
+}
+
+div.video-container{
+    
+}
+
+
+
+/* Métiers */

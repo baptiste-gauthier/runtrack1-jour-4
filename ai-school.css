@@ -1,0 +1,93 @@
+body {
+    font-family: 'Space Mono', monospace;
+
+}
+
+main {
+    margin-left: 20%;
+    margin-right: 50px;
+    text-align: justify;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    width: 15%;
+    background-color: #88c1d0;
+    height: 100%; /* Full height */
+    position: fixed; /* Make it stick, even on scroll */
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: #275fa0;
+    padding: 20px 8px 20px 8px;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #275fa0;
+    color: #ffca4b;
+}
+
+h1 {
+    text-align: center;
+    background-color: #ffca4b;
+}
+h1:hover {
+    background-color: #275fa0;
+    color: #ffca4b;
+}
+
+h4 {
+    text-align: center;
+    background-color: #ffca4b;
+}
+h4:hover {
+    background-color: #275fa0;
+    color: #ffca4b;
+}
+
+
+iframe {
+    flex: auto;
+}
+
+
+button {
+    justify-content: center;
+    font-size: large;
+    padding : 20px;
+    border-radius: 35%;
+    border-color: solid 1px #FFCA4B;
+    background-color: #FFCA4B;
+}
+.bouton {
+    width: 20%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+img {
+    width: 100px;
+    margin: auto;
+    padding-top: 150px;
+}
+
+a {
+    text-decoration: none;
+    color: #275FA0;
+}
+
+button:hover {
+    background-color: #88c1d0;
+    color: #FFCA4B;
+}
+a:hover {
+    color: #FFCA4B;
+}

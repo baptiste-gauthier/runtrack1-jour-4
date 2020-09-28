@@ -1,0 +1,311 @@
+
+
+   /* deux premiere fenêtres */
+
+#accueil-general                 
+ {
+    display: flex;
+    
+}
+
+
+
+
+
+ /* partie gauche */
+
+#acc-gen-gauche                    
+{
+    background-color: #88c1d0 ;
+    text-align: center;
+    width: 50%;
+}
+
+#logo-accueil-general
+{
+    width: 60%;
+}
+
+#titre-principal{
+    max-width: 60%;
+    margin: auto;
+    margin-bottom: 30px;
+    color: #275fa0;
+    font-size: 2em;
+}
+ul{
+    padding: 0;
+}
+
+li, a
+{
+    list-style: none;
+    text-decoration: none;
+}
+.li-gauche{
+    padding: 10px;
+    transition: transform .2s;
+    
+}
+
+.li-gauche:hover{
+
+    transform: scale(1.2);
+}
+
+#liens-acc-gen-gauche{
+    margin-bottom: 50px;
+}
+
+
+.liens-acc-gauche{
+    background-color:#ffca4b;
+    padding: 4px;
+    border-radius: 30px; 
+}
+
+H1, nav
+{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+  
+
+
+
+
+
+    /* partie droite*/
+
+
+#acc-gen-droit                      
+{
+    background-image: url("Charte/gif numerique2.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+#lien-droite{
+    background-color:#275fa0;
+    padding: 4px;
+    border-radius: 40px; 
+    font-size: 2em;
+    text-align: center;
+    max-width: 60%;
+    margin-top: 60px;
+    color: aliceblue;
+    padding: 20px;
+}
+
+
+#acc-gen-droit img{
+    width:150px; height:150px;
+}
+
+.vignette{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 400px;
+  
+
+}
+
+.vignette a{
+   margin: 20px; 
+}
+
+.vignette img{
+    box-shadow: 0px 0px 30px rgb(0, 0, 0);
+    border-radius: 15px;
+    transition: transform .2s;
+    
+}
+
+.vignette img:hover{
+    transform: scale(1.2); 
+  }
+
+
+
+
+
+
+/* deuxième partie les différentes formations*/
+
+#dzq            
+{
+
+    padding: 30px;
+    margin: 30px;
+    font-size: 2em;
+    color: #275fa0;
+
+}
+
+#presentation-formations-liste
+{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 150px;
+
+}
+
+.art-presentation-formations{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+ 
+    box-shadow: 0 0 20px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    -o-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
+
+.resume-formation{
+    padding: 30px;
+}
+
+#presentation-formations-liste a
+{
+    background-color:#ffca4b;
+    padding: 10px;
+    border-radius: 40px; 
+    text-align: center;
+    max-width: 60%;
+    display: flex;
+    justify-content: bottom;
+    transition: transform .2s;
+}
+
+#presentation-formations-liste a:hover{
+
+  transform: scale(1.2);  
+}
+
+
+
+
+
+/*partie trois ils parlent de la plateforme*/
+
+#deux-titres{
+    padding: 30px;
+}
+
+#temoignages{
+
+    background-color:#88c1d0;
+}
+
+#h1-titre-entrepreneur
+{
+    font-family: 'Roboto', sans-serif;
+    color: #275fa0;
+    font-size: 2em;
+}
+
+#titre-entrepreneurs{
+    font-family: 'Roboto', sans-serif;
+    color: #275fa0;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+
+#articles-videos{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.video{
+    margin: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: #275fa0;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+/*partie quatre les metiers qui recrutent*/
+
+
+#metiers-qui-recrutent{
+    display: flex;
+}
+
+
+#titre-metiers-qui-recrutent{
+    width: 20%;
+    padding: 150px 120px 150px 120px;
+    min-width: 20%;
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+    color: #275fa0;
+    text-align: justify;
+}
+
+.miniature{
+    display: flex;
+    margin: 30px;
+
+}
+
+#petites-images{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px;
+}
+
+table{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    font-size: 1.5em;
+    border-collapse: collapse;
+    box-shadow: 0 0 40px rgb(73, 73, 73);
+}
+
+
+  
+td{
+    border: 1px solid black;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: #275fa0;
+  }
+
+
+
+
+
+
+
+
+
+
+
